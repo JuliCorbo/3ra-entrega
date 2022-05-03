@@ -1,0 +1,176 @@
+
+@import "../base/variables";
+@import "../base/listas";
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+body{
+    font-family: $font;
+}
+/*header con navbar*/
+.background-header{
+    background-image: url(/multimedia/img21.jpeg);
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 36rem;
+
+            .nav-inicio{
+                display: flex;
+                justify-content: space-around;
+                width: 50%;
+                position: fixed;
+            
+            }
+
+            .nav-inicio a{
+                font-size: 2rem;
+                text-decoration: none;
+                color:rgb(192, 221, 192);
+                text-shadow: 1px 2px 1px #474747;
+            }           
+}
+
+.header-inicio{
+    height: 36rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        h1{
+            font-size: 6rem;
+            text-shadow: 3px 5px 2px #474747;
+            color: beige;
+        }
+}
+
+/*.logopng{
+    width: 30%;
+    
+}*/
+/*section1*/
+
+.section1{
+    background: $bg-gradient;
+        height: nth($size, 3);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.28); 
+box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.28);
+        p{
+            font-size: nth($size, 1);
+            
+        }
+}
+
+/*cards*/
+
+
+.cards-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 5%;
+    margin-top: 5%;
+
+    .cards{
+        width: 80%;
+        
+        .cards-img{
+        width: 100%;
+        -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.28); 
+box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.28);
+        }
+
+    }
+}
+@media screen and(max-width:490px){
+    .cards-container{
+        display: block;
+        
+    }
+}
+
+
+.promos{
+    width: 100%;
+    height: nth($size, 3);
+    background: $bg-gradient;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.28); 
+box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.28);
+    p{
+        font-size: nth($size, 1);
+       
+    }
+}
+
+
+    .maps{
+        width: 100%;
+        -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.28); 
+box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.28);
+    }
+
+
+.camino-videos{
+    width: 100%;
+    height: nth($size, 3);
+    background: $bg-gradient;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.28); 
+box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.28);
+
+            p{
+                font-size: nth($size, 1);
+            }
+
+}
+
+.videos-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 5%;
+    margin-top: 5%;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.28); 
+box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.28);
+
+    
+}
+
+@media screen and (max-width:490px){
+    .videos-container{
+        display: block;
+    }
+}
+
+/*footer footer*/
+
+.footer-container{
+    width: 100%;
+    margin-top: 3rem;
+    background: $bg-gradient;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    
+    
+    
+        
+      .imgs{
+         width: 6rem;
+            
+         }
+        
+    
+}
+

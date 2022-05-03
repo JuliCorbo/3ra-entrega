@@ -1,0 +1,61 @@
+@import "../base/listas";
+@import "../base/variables";
+
+.body-nosotros{
+    background: $bg-gradient
+
+}
+.nav-inicio{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+        a{
+            text-decoration: none;
+            font-size: nth($size, 1);
+            color:rgb(192, 221, 192);
+            text-shadow: 1px 2px 1px #474747;
+        }
+}
+
+.sectionlogo{
+    width: 100%;
+   
+        .logopng{
+            width: 65%;
+            margin-left: 20%;
+        }
+}
+
+.section-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+        h1{
+            font-size: 3rem;
+        }
+}
+
+.section2{
+    width: 100%;
+    display: flex;
+    
+    p{
+        width: 90%;
+        margin-left: 2rem;
+    }
+    
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+.section3{
+    width: 90%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
+

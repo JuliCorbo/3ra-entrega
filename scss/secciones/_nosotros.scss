@@ -56,4 +56,24 @@ h2{
 }
 
 
+.img-nosotros img{
+    width: 100%;
+    margin-left: 5%;
+    
+}
+.img-nosotros{
+    
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 20px;
+    
+    
+    
+}
 
+@media screen and (max-width:490px){
+    .img-nosotros{
+        display: block;
+        margin-top: 15px;
+    }
+}

@@ -47,7 +47,7 @@
     grid-template-columns: 1fr 1fr;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    margin-left: 4rem;
+    margin-left: 10rem;
     margin-right: 4rem;
     
     
@@ -57,18 +57,22 @@
     width: 70%;
     
 }
-.contactos h2{
-    font-size: 3rem;
+.contactos img{
+    width:100%;
+    border-radius: 15px;
 }
+
 .contactos p{
     font-size: 1.5rem;
+    text-align: center;
 }
 
 .links{
     text-decoration: none;
     color: black;
     font-size: 2rem;
-   background: $bg-gradient;
+   background-color: green;
+   border-radius: 15px;
     padding: 5%;
    
     
@@ -87,5 +91,9 @@
         margin-left: 5%;
         margin-right: 5%;
         
+        
+    }
+    .contactos div{
+        margin-top: 3rem;
     }
 }

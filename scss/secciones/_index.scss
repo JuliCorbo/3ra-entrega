@@ -113,6 +113,7 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.28);
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
     margin-left: 5%;
     margin-top: 5%;
 
@@ -165,6 +166,7 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.28);
 @media screen and(max-width:490px){
     .cards-container{
         display: block;
+        
         
     }
 }
@@ -230,6 +232,20 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.28);
     }
 }
 
+.compras-mayoristas{
+    background: $bg-gradient;
+    height: 20rem;
+    margin-top: 3rem;
+    p{
+        text-align: center;
+    }
+    a{
+        margin-left: 2rem;
+        text-decoration: none;
+        color: beige;
+    }
+}
+
 /*footer footer*/
 
 .footer-container{
@@ -272,7 +288,8 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.28);
         display: none;
     }
     .contactos{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
     }
 }

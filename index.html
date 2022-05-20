@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200&family=Montserrat:wght@800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Pimpaji Vivero / Produccion de plantas</title>
 </head>
 <body>
@@ -41,26 +42,26 @@
 </section>
 
 <section class="section1">
-    <p>
+    <p data-aos="fade-down" >
         Cuando venis a Pimpaji, van a estar recibiendote 38 años de experiencia <br> brindando asesoramiento, calidad y calidez humana en la atencion
     </p>
 </section>
 
 <section class="cards-container">
     <div class="cards">
-        <img class="cards-img" src="multimedia/cactus.jpg" alt="cactus">
+        <img data-aos="fade-up" class="cards-img" src="multimedia/cactus.jpg" alt="cactus">
         <h2>Conoce sobre cactus y suculentas!</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, nesciunt distinctio asperiores earum minus molestias delectus, at esse facere nisi necessitatibus iusto i</p>
         <a href="tutoriales.html">Ver mas!</a>
     </div>
     <div class="cards">
-        <img class="cards-img" src="multimedia/arbol.jpg" alt="arbol">
+        <img data-aos="fade-up" class="cards-img" src="multimedia/arbol.jpg" alt="arbol">
         <h2>Conoce nuestros arboles!</h2>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error autem eveniet expedita nulla, facilis ratione distinctio deleniti blanditiis laboriosam et dolor odit repellendus id nisi, fugit, cupiditate maiores assumenda molestias?</p>
         <a class="button" href="tutoriales.html">Ver mas!</a>
     </div>
     <div class="cards">
-        <img class="cards-img" src="multimedia/interior.jpg" alt="plantas interior">
+        <img data-aos="fade-up" class="cards-img" src="multimedia/interior.jpg" alt="plantas interior">
         <h2>Conoce sobre las plantas de interior!</h2>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex explicabo blanditiis numquam, a porro, eaque voluptatibus incidunt earum velit veniam quas. Nulla sint illum .</p>
         <a href="tutoriales.html">Ver mas!</a>
@@ -68,7 +69,7 @@
 </section>
 
 <section class="promos">
-    <p>
+    <p data-aos="fade-down">
         Envios sin cargo dentro de Santo Tome y Sur de la ciudad de Santa Fe <br>
 
         Obtene un 10% de descuento pagando en efectivo en el vivero!
@@ -83,7 +84,7 @@
 </section>
 
 <section class="camino-videos">
-    <p>Conocenos en videos!</p>
+    <p data-aos="fade-down">Conocenos en videos!</p>
 </section>
 
 <section class="videos-container">
@@ -102,7 +103,7 @@
 </section>
 
 
-<section class="compras-mayoristas">
+<section data-aos="fade-down" class="compras-mayoristas">
     <h2>Para compras mayoristas</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi earum atque qui maxime illum quasi provident consectetur cum similique accusantium dicta exercitationem, repellendus quisquam et hic ad facilis dignissimos ipsam!tetur cum similique accusantium dicta exercitationem, repellendus quisquam et hic ad facilis dignissimos ipsam!</p>
 
@@ -126,7 +127,10 @@
         <img class="png" src="multimedia/Pimpaji PNG.png" alt="">
     </div>
 
-    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </footer>
 </body>
 </html>
